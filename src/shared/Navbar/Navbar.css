@@ -1,0 +1,45 @@
+/* Navbar.css */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000080; /* Navy blue background */
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: white; 
+  font-size: larger;/* White text color */
+}
+
+.logo {
+  width: 50px; /* Adjust logo size as needed */
+  padding-right: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+  color: white; /* White text color for nav links */
+  text-decoration: none;
+}
+
+.action-button {
+  background-color: transparent;
+  border: 2px solid white; /* White border */
+  color: white; /* White text color */
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 10px; /* Adjust spacing between action buttons */
+}
+
+.action-button:hover {
+  background-color: white; /* White background on hover */
+  color: #000080; /* Navy blue text color on hover */
+}
